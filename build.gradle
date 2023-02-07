@@ -40,9 +40,6 @@ ext {
 //	set('springCloudVersion', "Hoxton.SR6")
 }
 
-bootWar.enabled = false
-war.enabled = true
-
 dependencies {
 	// war
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'

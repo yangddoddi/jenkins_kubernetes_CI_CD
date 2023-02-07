@@ -13,7 +13,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 @SpringBootApplication
 @EnableAspectJAutoProxy(proxyTargetClass = true)
-public class MomoBeApplication extends SpringBootServletInitializer {
+public class MomoBeApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MomoBeApplication.class, args);
